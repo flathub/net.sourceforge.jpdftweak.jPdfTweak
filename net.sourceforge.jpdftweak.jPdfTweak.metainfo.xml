@@ -6,7 +6,7 @@
 	<summary>Swiss Army Knife for PDF files</summary>
 	<metadata_license>CC0-1.0</metadata_license>
 	<project_license>AGPL-3.0-or-later</project_license>
-	<url type="homepage">https://sourceforge.net/projects/jpdftweak/</url>
+	<url type="homepage">http://jpdftweak.sourceforge.net/</url>
 	<description><p>jPDF Tweak is a Java Swing application that can combine, split, rotate, reorder, watermark, encrypt, sign, and otherwise tweak PDF files.</p></description>
 	<screenshots>
 		<screenshot type="default">
