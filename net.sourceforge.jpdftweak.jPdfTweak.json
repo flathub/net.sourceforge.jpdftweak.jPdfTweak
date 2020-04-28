@@ -38,21 +38,11 @@
 				},
 				{
 					"type": "file",
-					"url": "http://prdownloads.sourceforge.net/jpdftweak/jpdftweak-linux-x86-1.1.zip",
-					"dest-filename": "jpdftweak-dist.zip",
-					"sha256": "d7b25408e5f2c4e729e24d28ccdafb75b35a170681c8949e1d232fffedcb04fd",
-					"only-arches": [
-						"i386"
-					]
-				},
-				{
-					"type": "file",
 					"url": "http://prdownloads.sourceforge.net/jpdftweak/jpdftweak-1.1.zip",
 					"dest-filename": "jpdftweak-dist.zip",
 					"sha256": "fe48cd8a114250e131b20be67234202c24f4d94cb3b824be789653c5f6e34a47",
 					"skip-arches": [
-						"x86_64",
-						"i386"
+						"x86_64"
 					]
 				}
 			]
