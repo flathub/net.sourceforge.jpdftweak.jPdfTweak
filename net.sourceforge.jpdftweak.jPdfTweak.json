@@ -26,12 +26,36 @@
 				"cp -r dist/* /app/jpdftweak",
 				"for size in 16 32 48 64 128 256; do install -Dm644 /app/jpdftweak/icons/icon${size}.png /app/share/icons/hicolor/${size}x${size}/apps/net.sourceforge.jpdftweak.jPdfTweak.png; done"
 			],
-			"sources": [{
-				"type": "file",
-				"url": "http://prdownloads.sourceforge.net/jpdftweak/jpdftweak-1.1.zip",
-				"dest-filename": "jpdftweak-dist.zip",
-				"sha256": "fe48cd8a114250e131b20be67234202c24f4d94cb3b824be789653c5f6e34a47"
-			}]
+			"sources": [
+				{
+					"type": "file",
+					"url": "http://prdownloads.sourceforge.net/jpdftweak/jpdftweak-linux-x64-1.1.zip",
+					"dest-filename": "jpdftweak-dist.zip",
+					"sha256": "8935a85fb5e0d7c2504654e735b42821132b2e78e93e0b1cc09eb5fd12a7cd23",
+					"only-arches": [
+						"x86_64"
+					]
+				},
+				{
+					"type": "file",
+					"url": "http://prdownloads.sourceforge.net/jpdftweak/jpdftweak-linux-x86-1.1.zip",
+					"dest-filename": "jpdftweak-dist.zip",
+					"sha256": "d7b25408e5f2c4e729e24d28ccdafb75b35a170681c8949e1d232fffedcb04fd",
+					"only-arches": [
+						"i386"
+					]
+				},
+				{
+					"type": "file",
+					"url": "http://prdownloads.sourceforge.net/jpdftweak/jpdftweak-1.1.zip",
+					"dest-filename": "jpdftweak-dist.zip",
+					"sha256": "fe48cd8a114250e131b20be67234202c24f4d94cb3b824be789653c5f6e34a47",
+					"skip-arches": [
+						"x86_64",
+						"i386"
+					]
+				}
+			]
 		},
 		{
 			"name": "jpdftweak-startup",
