@@ -9,7 +9,9 @@
 		"--env=PATH=/app/jre/bin:/usr/bin:/app/bin",
 		"--share=ipc",
 		"--socket=x11",
-		"--filesystem=home"
+		"--filesystem=xdg-desktop",
+		"--filesystem=xdg-documents",
+		"--filesystem=xdg-download"
 	],
 	"modules" : [
 		{
