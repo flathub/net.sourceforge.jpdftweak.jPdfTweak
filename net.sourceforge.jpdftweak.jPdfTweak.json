@@ -9,6 +9,7 @@
 		"--env=PATH=/app/jre/bin:/usr/bin:/app/bin",
 		"--share=ipc",
 		"--socket=x11",
+		"--device=dri",
 		"--filesystem=xdg-desktop",
 		"--filesystem=xdg-documents",
 		"--filesystem=xdg-download"
