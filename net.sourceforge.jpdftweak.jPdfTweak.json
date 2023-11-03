@@ -3,10 +3,11 @@
 	"runtime" : "org.freedesktop.Platform",
 	"runtime-version" : "23.08",
 	"sdk" : "org.freedesktop.Sdk",
-	"sdk-extensions" : [ "org.freedesktop.Sdk.Extension.openjdk11" ],
+	"sdk-extensions" : [ "org.freedesktop.Sdk.Extension.openjdk17" ],
 	"command": "net.sourceforge.jpdftweak.jPdfTweak",
 	"finish-args" : [
 		"--env=PATH=/app/jre/bin:/usr/bin:/app/bin",
+		"--device=dri",
 		"--share=ipc",
 		"--socket=x11",
 		"--filesystem=xdg-desktop",
@@ -17,7 +18,7 @@
 		{
 			"name" : "openjdk",
 			"buildsystem" : "simple",
-			"build-commands" : [ "/usr/lib/sdk/openjdk11/install.sh" ]
+			"build-commands" : [ "/usr/lib/sdk/openjdk17/install.sh" ]
 		},
 		{
 			"name": "jpdftweak",
