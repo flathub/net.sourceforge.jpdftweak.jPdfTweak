@@ -12,7 +12,8 @@
 		"--socket=x11",
 		"--filesystem=xdg-desktop",
 		"--filesystem=xdg-documents",
-		"--filesystem=xdg-download"
+		"--filesystem=xdg-download",
+		"--env=XDG_CURRENT_DESKTOP=generic"
 	],
 	"modules" : [
 		{
