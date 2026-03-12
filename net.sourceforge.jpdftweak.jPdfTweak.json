@@ -1,7 +1,7 @@
 {
 	"app-id" : "net.sourceforge.jpdftweak.jPdfTweak",
 	"runtime" : "org.freedesktop.Platform",
-	"runtime-version" : "23.08",
+	"runtime-version" : "25.08",
 	"sdk" : "org.freedesktop.Sdk",
 	"sdk-extensions" : [ "org.freedesktop.Sdk.Extension.openjdk17" ],
 	"command": "net.sourceforge.jpdftweak.jPdfTweak",
@@ -56,8 +56,8 @@
 			"buildsystem": "simple",
 			"build-commands": [
 				"install -Dm755 jpdftweak /app/bin/net.sourceforge.jpdftweak.jPdfTweak",
-				"install -Dm644 net.sourceforge.jpdftweak.jPdfTweak.desktop /app/share/applications/net.sourceforge.jpdftweak.jPdfTweak.desktop",
-				"install -Dm644 net.sourceforge.jpdftweak.jPdfTweak.metainfo.xml /app/share/metainfo/net.sourceforge.jpdftweak.jPdfTweak.metainfo.xml"
+				"install -Dm644 net.sourceforge.jpdftweak.jPdfTweak.desktop -t /app/share/applications/",
+				"install -Dm644 net.sourceforge.jpdftweak.jPdfTweak.metainfo.xml -t /app/share/metainfo/"
 			],
 			"sources": [{
 				"type": "file",
